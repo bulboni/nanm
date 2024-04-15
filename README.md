@@ -3,7 +3,7 @@
 - docker run -it --rm -p 6080:80 -p 5900:5900 dorowu/ubuntu-desktop-lxde-vnc
 - wget https://bin.equinox.io/c/bNyj1mQVY4c/ngrok-v3-stable-linux-amd64.tgz && tar -xf ngrok-v3-stable-linux-amd64.tgz && ./ngrok config add-authtoken 2eqKuowsYAQzDkn0uAG8WWxxfTy_4MWVSLvDjfSCWgPsQVbm5
 - ./ngrok http 6080
-  
+   
    token ngrok :
 - 2TtAcvy5faRWDPlmnbt2tauuMfy_J8rCNerKtLqLeJqrMTGY
 - 2TY9j0ZPVtJfGB3HQPVxoIAcKR6_2sqBzNTKDZnacRm9hJtFK
